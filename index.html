@@ -1,4 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
 <title>i'm simulbanging it</title>
 <center><h1>Smiley Host</h1></center>
 <center><p>Unfortunately, there is no login yet so you need to manually ask the site owner to host what you like.</p></center>
 <center><h2>MAX FILE SIZE IS 25 MB</h2></center>
+
+
+<script>
+const q = new URLSearchParams(location.search);
+if (q.get('utm_source') === 'chatgpt.com') {
+  document.documentElement.innerHTML = `
+  <head>
+    <meta charset="UTF-8">
+    
+
+<title>AI Script Kiddie detected</title>
+<center><h1>be ashamed of yourself ai loser</h1></center>
+<center><p>use ai=loser actually do work yourself=winner - Tim Berners-Lee </p> </center>
+<center><p>if you keep seeing this error maybe stop using chatgpt or any ai</p></center>
+
+
+  </body>`;
+}
+</script>
+</body>
+</html>
